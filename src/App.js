@@ -1,13 +1,17 @@
-import './App.css';
-import Header from './components/Header';
-import './App.css';
-import Balance from './components/Balance';
+import "./App.css";
+import Header from "./components/Header";
+import "./App.css";
+import Balance from "./components/Balance";
+import IncomeExpenses from "./components/IncomeExpenses";
 
 function App() {
   return (
     <div>
       <Header />
-      <Balance />
+      <div className="container">
+        <Balance />
+        <IncomeExpenses />
+      </div>
     </div>
   );
 }
